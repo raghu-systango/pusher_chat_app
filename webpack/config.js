@@ -38,7 +38,9 @@ const config = {
     ]
   },
   node: {
-    fs: 'empty'
+    net: 'empty',
+    fs: 'empty',
+    tls: 'empty'
   },
   resolve: {
     extensions: ['.js', '.jsx']

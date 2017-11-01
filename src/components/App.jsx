@@ -1,5 +1,6 @@
 import React from 'react'
 import { StyleSheet, css } from 'aphrodite'
+import Chat from './ui_components/Chat.js'
 
 const styles = StyleSheet.create({
   navBar: {
@@ -14,6 +15,7 @@ export default function App({ children }) {
       <div className={css(styles.navBar)}>
         This is where your navbar could go. This is styled with Aphrodite.
       </div>
+      <Chat />
       {children}
     </div>
   )
